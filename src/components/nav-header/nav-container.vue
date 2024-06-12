@@ -9,10 +9,22 @@ const listItems = ref([
   {section:"events", status: false},
   {section:"conferences", status: false},
   {section:"projects", status: false},
-  //{section:"products", status: false},
-  {section:"about", status: false},
-  //{section:"community", status: false},
+  
+  {
+    section: "about", 
+    status: false, 
+   
+    subMenu: [
+      { name: "Historia", link: "#" },
+      { name: "Misión", link: "#" },
+      { name: "Visión", link: "#" }
+    ]
+
+  }
+  
 ])
+
+
 // Variable que almacena que boton esta activo, dependiendo la seccion mostrada al centro de la pantalla
 let indicePorActivar = '',
 indiceActivo = ''
@@ -86,83 +98,83 @@ addEventListener('scroll', (e) => {
 })
 </script>
 
+
 <template>
   <nav class="nav">
     <ul class="nav__list container">
-    <!-- Logo MIKRON -->
+      <!-- Logo MAIKRON -->
       <li>
-        <button
-          class="btn-logo"
-          @click="scrollSection('home')">
+        <button class="btn-logo" @click="scrollSection('home')">
           <figure>
-            <img class="img-logo" src="../../assets/imagenes/logo-MAIKRON2.png
-            " alt="logo-maikron">
+            <img class="img-logo" src="../../assets/imagenes/logo-MAIKRON2.png" alt="logo-maikron">
           </figure>
         </button>
       </li>
       <!-- Botones para navegar entre seccion -->
       <ul class="nav__list--sections">
-        <li class="nav-item" v-for="item in listItems">
-          <linkSection
-            :section="item.section"
-            :status_btn="item.status"
-            @click="scrollSection(item.section)" />
-        </li>
-        <li>
-          <button
-            class="btn-contact_us"
-            @click="scrollSection('contact')">contact us</button>
+        <li class="nav-item" v-for="item in listItems" :key="item.section">
+          <linkSection :section="item.section" :status_btn="item.status" @click="scrollSection(item.section)" />
+
+          <!-- Submenú de la seccion de about-->
+          <ul v-if="item.subMenu" class="submenu">
+            <li v-for="subItem in item.subMenu" :key="subItem.name">
+              <a :href="subItem.link">{{ subItem.name }}</a>
+            </li>
+          </ul>
+
         </li>
       </ul>
-      <!-- Boton Contact Us -->
     </ul>
   </nav>
 </template>
 
+
+<!--estilos a la seccion del menu de navegacion-->
 <style scoped>
 
-ul{
+ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-button{
+
+button {
   border: 0;
   cursor: pointer;
 }
 
-.nav{
+.nav {
   position: sticky;
-  top:0;
+  top: 0;
   background-color: white;
   z-index: 999;
 }
 
-.nav__list{
+.nav__list {
   padding: 0.7rem 0;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 1200px;
-  margin: 0 auto; */
 }
 
-.nav__list--sections{
+.nav__list--sections {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5em;
 }
 
-.btn-logo{
+.btn-logo {
   background-color: white;
   margin-right: 4.8rem;
 }
 
-.img-logo{
-
+.img-logo {
   width: 100px;
 }
-.btn-contact_us{
+
+.btn-contact_us {
   color: #FFF;
   background-color: black;
   text-align: center;
@@ -176,7 +188,46 @@ button{
   transition: color 0.2s ease-in-out;
 }
 
-.btn-contact_us:hover{
+.btn-contact_us:hover {
   color: var(--c-yellow-primary);
 }
+
+/* Estilos para el submenú */
+.nav-item{
+  position: relative; /*asegura que se posicione relativo a su padre */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.nav-item:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 5px 10px;
+}
+
+.submenu li a {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+ 
+  background-color: #f0f0f0;
+}
+
 </style>

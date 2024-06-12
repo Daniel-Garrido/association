@@ -130,20 +130,40 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
       class="about__content container"
       data-aos="fade-up"
       data-aos-duration="1000">
+      
       <h2 class="about__title section__title">
         About
       </h2>
-      <figure class="about__figure--img">
+
+      <!-- <figure class="about__figure--img">
         <img :src="'src\\assets\\imagenes\\home\\logo__maikron.png'" alt="" class="about__img">
       </figure>
+      
       <p class="about__description section__description">
         Experience the pinnacle of information security at the 2023 ISSA International Awards Gala. Join us to celebrate outstanding achievements, gain exclusive insights from industry experts, expand your network, and immerse yourself in the electric energy of Las Vegas.
-      </p>
-    </div>
+      </p> -->
+
+    <h1 class="about__title section__title"> Historia</h1>
+    <p class="about__description section__description">
+      En el contexto de México, como en muchas otras partes del mundo, la inteligencia artificial (IA) a menudo ha sido envuelta en un velo de misterio y especulación. Desde los relatos de ciencia ficción hasta los debates sobre el futuro del trabajo, la IA ha sido tema de fascinación y preocupación en igual medida. Sin embargo, en medio de estos mitos y percepciones distorsionadas, México se encuentra en una encrucijada única: tiene el potencial de aprovechar los beneficios de la IA para impulsar el progreso económico y social, al tiempo que enfrenta desafíos particulares en términos de acceso, capacitación y regulación.
+      Es de esta forma que, en un mundo donde los avances tecnológicos y la inteligencia artificial a menudo son vistos con escepticismo y temor, nace la Asociación MAIKRON, fundada por un grupo de visionarios y entusiastas de la tecnología y la ciencia. La razón del nacimiento de dicha asociación radica en demostrar que la IA y la tecnología pueden ser fuerzas positivas que contribuyen al bienestar de la sociedad.
+    </p>
+
+    <h1 class="about__title section__title" > Misión</h1>
+    <p class="about__description section__description" >
+      Impulsar el uso responsable y ético de la tecnología y la inteligencia artificial para mejorar la calidad de vida de las personas y contribuir al desarrollo sostenible de México y del bienestar de su sociedad. 
+    </p>
+
+    <h1 class="about__title section__title" > Visión</h1>
+    <p class="about__description section__description" >
+      Ser líder en el uso responsable y ético de la tecnología y la inteligencia artificial en México, siendo reconocida por su aporte al bienestar de las personas y al desarrollo sostenible del país.
+    </p>
+
+      </div>
   </section>
 
   <!-- Section Community -->
-  <section class="section__community" id="community">
+  <!-- <section class="section__community" id="community">
     <div
       class="community__content container"
       data-aos="fade-up"
@@ -157,7 +177,7 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
         </li>
       </ul>
     </div>
-  </section>
+  </section> -->
 
   <!-- Section Contact -->
   <section class="section__contact" id="contact">
