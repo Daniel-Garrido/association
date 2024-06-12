@@ -9,9 +9,9 @@ const listItems = ref([
   {section:"events", status: false},
   {section:"conferences", status: false},
   {section:"projects", status: false},
-  {section:"products", status: false},
+  //{section:"products", status: false},
   {section:"about", status: false},
-  {section:"community", status: false},
+  //{section:"community", status: false},
 ])
 // Variable que almacena que boton esta activo, dependiendo la seccion mostrada al centro de la pantalla
 let indicePorActivar = '',
@@ -95,7 +95,7 @@ addEventListener('scroll', (e) => {
           class="btn-logo"
           @click="scrollSection('home')">
           <figure>
-            <img src="../../assets/imagenes/logo-MAIKRON.png
+            <img class="img-logo" src="../../assets/imagenes/logo-MAIKRON2.png
             " alt="logo-maikron">
           </figure>
         </button>
@@ -154,9 +154,14 @@ button{
 }
 
 .btn-logo{
+  background-color: white;
   margin-right: 4.8rem;
 }
 
+.img-logo{
+
+  width: 100px;
+}
 .btn-contact_us{
   color: #FFF;
   background-color: black;
