@@ -9,18 +9,21 @@ export const listCard1 = [
 
 
 export const listEvents = [
-  {src: "src\\assets\\imagenes\\card_events\\img1.png",
-  title: "Artificial Intelligence Leaders Partner with Cloud Security Alliance to Launch the AI Safety Initiative",
-  date: "December 12, 2023"},
-  {src: "src\\assets\\imagenes\\card_events\\img2.png",
-  title: "Cloud Security Alliance Launches the Industry’s First Authoritative Zero Trust Training and Credential",
-  date: "December 12, 2023"},
-  {src: "src\\assets\\imagenes\\card_events\\img3.png",
-  title: "Identifying SaaS App Risks",
-  date: "December 12, 2023"},
-  {src: "src\\assets\\imagenes\\card_events\\img4.png",
-  title: "When a Breach Isn't All Bad: Making the Most of Adverse Cyber Circumstances",
-  date: "December 12, 2023"},
+ 
+  {src: "src\\assets\\imagenes\\card_events\\EventoMaikron.jpg",
+  title: "Understanding SMEs Cybersecurity Concerns and Experience",
+  date: ""},
+ 
+  {src: "src\\assets\\imagenes\\card_events\\EventoMaikron2.jpg",
+  title: "Captum: Interpretación de Modelos de Machine Learning",
+  date: ""},
+  
+  // {src: "src\\assets\\imagenes\\card_events\\img3.png",
+  // title: "Identifying SaaS App Risks",
+  // date: "December 12, 2023"},
+  // {src: "src\\assets\\imagenes\\card_events\\img4.png",
+  // title: "When a Breach Isn't All Bad: Making the Most of Adverse Cyber Circumstances",
+  // date: "December 12, 2023"},
 ]
 
 
@@ -86,49 +89,16 @@ export const listConferences = [
 export const listProjects = [
   {
     src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
+    title: "Estudiante de Mérida Impulsa el Aprendizaje Estudiantil a Través de la Innovación Tecnológica en Maikron",
+    description: "Delmy Luceli Lira Balam, estudiante del Instituto Tecnológico de Mérida, está a la vanguardia de un emocionante proyecto en Maikron que busca facilitar y enriquecer la experiencia educativa de futuros estudiantes mediante una plataforma web avanzada. Este proyecto, aunque complicado, se alinea perfectamente con sus intereses y área de estudio, motivándola a enfrentar los retos con determinación y entusiasmo. "
   },
   {
     src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
+    title: "Estudiante de Mérida Colabora en la Detección de Especies Parasitarias para Proteger la Vegetación",
+    description: "Juan Antonio Vidal Allerhand, estudiante del Instituto Tecnológico de Mérida, contribuye en un proyecto innovador que utiliza la tecnología para abordar un problema ambiental crítico: la detección de especies parasitarias en vegetación. Este proyecto no solo tiene el potencial de mejorar la salud y la calidad de vida de la vegetación sino también de prevenir la propagación de estas especies a otros árboles e incluso a otros ecosistemas"
   },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
-  {
-    src: "src\\assets\\imagenes\\card__pryects\\img1.png",
-    title: "Expand Your Network",
-    description: "Through chapter affiliation and engagement and participation at the international level, you'll make new connections and expand your network of cyber security professionals."
-  },
+  
+
 ]
 
 

@@ -7,7 +7,6 @@ import sliderProjects from "../components/slider-projects.vue";
 import formContact from "../components/form-contact.vue";
 import cardLogo from '../components/card-logo.vue'
 import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity } from "../js/datos-home-page.js";
-
 </script>
 
 <template>
@@ -107,6 +106,7 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
 
   <!-- Section Projects -->
   <section class="section__projects" id="projects">
+    
     <div
       class="projects__content container"
       data-aos="fade-right"
