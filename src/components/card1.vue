@@ -56,6 +56,7 @@ defineProps({
   line-height: 25px;
   margin-bottom: 1.2rem;
   padding: 0 1.7rem;
+  
 }
 
 .card__description{

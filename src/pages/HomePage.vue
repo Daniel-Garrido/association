@@ -13,15 +13,10 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
   <navHeader />
 
   <!-- Section Presentacion -->
-  <section
-    class="section__presentacion"
-    id="home">
+  <section class="section__presentacion" id="home">
     <div class="presentacion__filter"></div>
 
-    <div
-      class="presentacion__content container"
-      data-aos="fade-up"
-      data-aos-duration="1000">
+    <div class="presentacion__content container" data-aos="fade-up" data-aos-duration="1000">
       <p class="presentacion__intro">association for computing machinery</p>
       <h1 class="presentacion__title">
         Advancing Computing as a Science & Profession
@@ -34,26 +29,22 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
     </div>
   </section>
 
+  <!-- section journal -->
   <!-- Section cards1 -->
   <section class="section__card1" id="jounal">
-    <div
-      class="card1__content container"
-      data-aos="fade-up"
-      data-aos-duration="1000">
+    <div class="card1__content container" data-aos="fade-up" data-aos-duration="1000">
       <h2 class="card1__title section__title">
         Expand Your Peer Network, Enhance Your Professional
         <br>
         <span>Stature & Achieve Your Personal Career Goals </span>
       </h2>
       <p class="card1__description section__description">
-        Your local chapter and ISSA International will provide you with a wealth of resources to keep you current with industry trends and developments in our ever-evolving field. What can we do for you today?
+        Your local chapter and ISSA International will provide you with a wealth of resources to keep you current with
+        industry trends and developments in our ever-evolving field. What can we do for you today?
       </p>
       <ul class="card1__card--list">
         <li class="card1__card--item" v-for="item in listCard1">
-          <card1
-            :src="item.src"
-            :title="item.title"
-            :description="item.description" />
+          <card1 :src="item.src" :title="item.title" :description="item.description" />
         </li>
       </ul>
     </div>
@@ -61,29 +52,26 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
 
   <!-- Section Events -->
   <section class="section__events" id="events">
-    <div
-      class="events__content container"
-      data-aos="fade-up"
-      data-aos-duration="1000">
+    <div class="events__content container" data-aos="fade-up" data-aos-duration="1000">
       <h2 class="section__title events__title">
         events
       </h2>
       <p class="events__description section__description">
-        From our annual International Summit and web conferences to our quarterly Cyber Executive Forums and chapter events, there's always something going on.
+       Algunos eventos que se han realizado por parte de la institución
       </p>
+
+      <!-- lista de eventos -->
       <ul class="events__cards--list">
         <li class="events__cards--item" v-for="event in listEvents">
-        <cardEvent
-          :src="event.src"
-          :title="event.title"
-          :date="event.date" />
+          <cardEvent :src="event.src" :title="event.title" :date="event.date" />
         </li>
       </ul>
+      
     </div>
   </section>
 
   <!-- Section Conferences -->
-  <section class="section__conferences" id="conferences">
+  <!-- <section class="section__conferences" id="conferences">
     <div
       class="conferences__content container"
       data-aos="fade-right"
@@ -102,93 +90,81 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
       data-aos="fade-right"
       data-aos-duration="950"
       :listConferences="listConferences" />
-  </section>
+  </section> -->
 
   <!-- Section Projects -->
   <section class="section__projects" id="projects">
-    
-    <div
-      class="projects__content container"
-      data-aos="fade-right"
-      data-aos-duration="950">
+
+    <div class="projects__content container" data-aos="fade-right" data-aos-duration="950">
       <h2 class="projects__title section__title">
         Projects
       </h2>
       <p class="projects__description section__description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna augue, condimentum id elit nec, facilisis lobortis magna.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna augue, condimentum id elit nec, facilisis
+        lobortis magna.
       </p>
     </div>
-    <sliderProjects
-      data-aos="fade-right"
-      data-aos-duration="950"
-      :list-proyects="listProjects" />
+    <sliderProjects data-aos="fade-right" data-aos-duration="950" :list-proyects="listProjects" />
   </section>
 
   <!-- Section About -->
   <section class="section__about" id="about">
-    <div
-      class="about__content container"
-      data-aos="fade-up"
-      data-aos-duration="1000">
-      
+
+    <div class="about__content container" data-aos="fade-up" data-aos-duration="1000">
+
       <h2 class="about__title section__title">
         About
       </h2>
 
-      <!-- <figure class="about__figure--img">
-        <img :src="'src\\assets\\imagenes\\home\\logo__maikron.png'" alt="" class="about__img">
-      </figure>
-      
-      <p class="about__description section__description">
-        Experience the pinnacle of information security at the 2023 ISSA International Awards Gala. Join us to celebrate outstanding achievements, gain exclusive insights from industry experts, expand your network, and immerse yourself in the electric energy of Las Vegas.
-      </p> -->
-
-    <h1 class="about__title section__title"> Historia</h1>
-    <p class="about__description section__description">
-      En el contexto de México, como en muchas otras partes del mundo, la inteligencia artificial (IA) a menudo ha sido envuelta en un velo de misterio y especulación. Desde los relatos de ciencia ficción hasta los debates sobre el futuro del trabajo, la IA ha sido tema de fascinación y preocupación en igual medida. Sin embargo, en medio de estos mitos y percepciones distorsionadas, México se encuentra en una encrucijada única: tiene el potencial de aprovechar los beneficios de la IA para impulsar el progreso económico y social, al tiempo que enfrenta desafíos particulares en términos de acceso, capacitación y regulación.
-      Es de esta forma que, en un mundo donde los avances tecnológicos y la inteligencia artificial a menudo son vistos con escepticismo y temor, nace la Asociación MAIKRON, fundada por un grupo de visionarios y entusiastas de la tecnología y la ciencia. La razón del nacimiento de dicha asociación radica en demostrar que la IA y la tecnología pueden ser fuerzas positivas que contribuyen al bienestar de la sociedad.
-    </p>
-
-    <h1 class="about__title section__title" > Misión</h1>
-    <p class="about__description section__description" >
-      Impulsar el uso responsable y ético de la tecnología y la inteligencia artificial para mejorar la calidad de vida de las personas y contribuir al desarrollo sostenible de México y del bienestar de su sociedad. 
-    </p>
-
-    <h1 class="about__title section__title" > Visión</h1>
-    <p class="about__description section__description" >
-      Ser líder en el uso responsable y ético de la tecnología y la inteligencia artificial en México, siendo reconocida por su aporte al bienestar de las personas y al desarrollo sostenible del país.
-    </p>
-
+      <div class="about__content_seccion">
+        <h1 class="about__title_Text"> Historia</h1>
+        <p class="about_Text">
+          En el contexto de México, como en muchas otras partes del mundo, la inteligencia artificial (IA) a menudo ha
+          sido envuelta en un velo de misterio y especulación. Desde los relatos de ciencia ficción hasta los debates
+          sobre el futuro del trabajo, la IA ha sido tema de fascinación y preocupación en igual medida. Sin embargo, en
+          medio de estos mitos y percepciones distorsionadas, México se encuentra en una encrucijada única: tiene el
+          potencial de aprovechar los beneficios de la IA para impulsar el progreso económico y social, al tiempo que
+          enfrenta desafíos particulares en términos de acceso, capacitación y regulación.
+          Es de esta forma que, en un mundo donde los avances tecnológicos y la inteligencia artificial a menudo son
+          vistos con escepticismo y temor, nace la Asociación MAIKRON, fundada por un grupo de visionarios y entusiastas
+          de la tecnología y la ciencia. La razón del nacimiento de dicha asociación radica en demostrar que la IA y la
+          tecnología pueden ser fuerzas positivas que contribuyen al bienestar de la sociedad.
+        </p>
       </div>
+
+
+      <div class="about__content_seccion">
+        <h1 class="about__title_Text"> Misión</h1>
+        <p class="about_Text">
+          Impulsar el uso responsable y ético de la tecnología y la inteligencia artificial para mejorar la calidad de
+          vida de las personas y contribuir al desarrollo sostenible de México y del bienestar de su sociedad.
+        </p>
+      </div>
+
+
+      <div class="about__content_seccion">
+        <h1 class="about__title_Text"> Visión</h1>
+        <p class="about_Text">
+          Ser líder en el uso responsable y ético de la tecnología y la inteligencia artificial en México, siendo
+          reconocida por su aporte al bienestar de las personas y al desarrollo sostenible del país.
+        </p>
+      </div>
+
+
+    </div>
+
   </section>
 
-  <!-- Section Community -->
-  <!-- <section class="section__community" id="community">
-    <div
-      class="community__content container"
-      data-aos="fade-up"
-      data-aos-duration="1000">
-      <h2 class="community__title section__title">
-        community
-      </h2>
-      <ul class="community__logos--list">
-        <li class="community__logos--item" v-for="logo in listLogosCommunity">
-          <cardLogo :src="logo.src"/>
-        </li>
-      </ul>
-    </div>
-  </section> -->
+
 
   <!-- Section Contact -->
   <section class="section__contact" id="contact">
-    <div
-      class="contact__content container"
-      data-aos="fade-up"
-      data-aos-duration="1000">
+    <div class="contact__content container" data-aos="fade-up" data-aos-duration="1000">
       <h2 class="contact__title section__title">
         contact
       </h2>
-      <formContact/>
+      <formContact />
+
     </div>
   </section>
 
@@ -373,6 +349,7 @@ ul{
 
 
 /********  Clases Section About  ********/
+
 .section__about{
   /* padding-block: 5.8rem 7rem; */
   padding-bottom: 8rem;
@@ -380,37 +357,37 @@ ul{
 
 .about__content{
   position: relative;
+ 
 }
 
 .about__title{
-  margin-bottom: 5.1rem;
+  margin-bottom: 3rem;
 }
 
-.about__figure--img{
-  width: 87px;
-  height: 87px;
-  background-color: black;
-  border-radius: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 556.5px;
-  top: 170px;
-}
-
-.about__img{
-  width: 64px;
-  height: 54px;
-}
-
-.about__description{
-  width: 834px;
-  margin-bottom: 0;
+.about__content_seccion{
+  padding: 20px;
   box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
-  padding: 4.7rem 3.2rem 2.75rem 3.2rem;
-  line-height: 1.6rem;
 }
+
+.about__title_Text{
+  text-align: left;
+  font-family: var(--ff-source-serif-4);
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.about_Text{
+  text-align: justify;
+  font-family: var(--ff-source-serif-4);
+  font-size: 16px;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+
+
+
 
 
 /********  Clases Section Contact  ********/

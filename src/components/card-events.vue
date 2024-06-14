@@ -1,22 +1,28 @@
 <script setup>
-defineProps({
+import { defineProps } from 'vue';
+
+const props = defineProps({
   src: {
-      type: String,
-      required: true
-    },
+    type: String,
+    required: true
+  },
   title: {
-      type: String,
-      required: true
-    },
+    type: String,
+    required: true
+  },
   date: {
-      type: String,
-      required: true
-    },
-})
+    type: String,
+    required: true
+  },
+});
+
+// Formatea date para asegurarte de que tenga HTML válido
+const formattedDate = props.date;
 </script>
 
 <template>
-  <div class="card__container">
+ 
+ <div class="card__container">
     <figure class="card__img">
       <img :src="src" alt="img-event">
     </figure>
@@ -25,9 +31,9 @@ defineProps({
       <h3 class="card__title">
         {{ title }}
       </h3>
-      <p class="card__date">
-        {{ date }}
-      </p>
+       <!-- Usa v-html solo en el contenido que necesita ser interpretado como HTML -->
+       <p class="card__description" v-html="formattedDate"></p>
+      
     </div>
   </div>
 </template>
@@ -35,17 +41,17 @@ defineProps({
 <style scoped>
 
 .card__container{
-  width: 568px;
-  height: 195px;
-  margin: 0 auto;
+ 
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  
   box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 5rem;
 }
 
 .card__img{
-  width: 221px;
+  width: 400px;
   height: 100%;
   flex-shrink: 0;
 }
@@ -55,25 +61,30 @@ defineProps({
   height: 100%;
 }
 
+
 .text__container{
   padding: 1.4rem 1.2rem 0 1.2rem;
 }
 
+
 .card__title{
-  color: #2E3339;
+  color: var(--c-yellow-primary);
   font-family: var(--ff-source-serif-4);
-  font-weight: 600;
-  line-height: 1.25rem;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 1.2rem;
+  padding: 0 1.7rem;
+  
 }
 
-.card__date{
-  color: #000;
+.card__description{
+  text-align: justify;
+  color: var(--c-grey-primary);
   font-family: var(--ff-montserrat);
-  font-size: 0.75rem;
-  font-style: italic;
-  font-weight: 300;
-  line-height: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 1.7rem;
 }
 </style>

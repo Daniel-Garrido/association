@@ -7,7 +7,6 @@ const listItems = ref([
   {section:"home", status: true},
   {section:"jounal", status: false},
   {section:"events", status: false},
-  {section:"conferences", status: false},
   {section:"projects", status: false},
   
   {

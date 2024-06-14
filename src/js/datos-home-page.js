@@ -10,13 +10,13 @@ export const listCard1 = [
 
 export const listEvents = [
  
-  {src: "src\\assets\\imagenes\\card_events\\EventoMaikron.jpg",
+  {src: "assets/imagenes/card_events/EventoMaikron.jpg",
   title: "Understanding SMEs Cybersecurity Concerns and Experience",
-  date: ""},
+  date: "Se concluye con éxito el evento Understanding SMEs Cybersecurity Concerns and Experience .Aunado a ello se agradece a todos los que participaron y contribuyeron a este encuentro. Un especial reconocimiento al Dr. Placide Poba-Nzaou, de la University of Quebec en Montreal por su destacada presentación y aporte al conocimiento en el campo de la Ciberseguridad. <br> El evento, que tuvo lugar en el auditorio Miguel Peón Toledo, del Instituto Tecnológico de Mérida, fue un espacio de valioso aprendizaje y diálogo sobre las tendencias y desafíos actuales en ciberseguridad. <br> Agradecemos profundamente el apoyo del TECNM-Mérida por las gestiones para ser sede de este evento y esperamos encontrarnos nuevamente."},
  
   {src: "src\\assets\\imagenes\\card_events\\EventoMaikron2.jpg",
   title: "Captum: Interpretación de Modelos de Machine Learning",
-  date: ""},
+  date: "Se concluye con éxito el evento Captum: Interpretación de Modelos de Machine Learning .  Aunado a ello,se agradece a todos los que participaron y contribuyeron a este encuentro. Un especial reconocimiento al MSc. Alejandro Pérez Muñoz por su destacada presentación y aporte al conocimiento en el campo del Machine Learning. <br> El evento, que tuvo lugar en la Sala Plenaria del Nodo de Creatividad para la Innovación y el Emprendimiento del Campus Norte del Instituto Tecnológico de Mérida, fue un espacio de valioso aprendizaje y diálogo sobre las tendencias y desafíos actuales en inteligencia artificial. <br> Gracias a todos los asistentes por su interés y participación activa. Esperamos contar con su presencia en futuras iniciativas. Agradecemos produndamente el apoyo del TECNM-Mérida por las gestiones para ser sede de este evento y esperamos encontrarnos nuevamente."},
   
   // {src: "src\\assets\\imagenes\\card_events\\img3.png",
   // title: "Identifying SaaS App Risks",
