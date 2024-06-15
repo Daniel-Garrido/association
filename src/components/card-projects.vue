@@ -1,4 +1,7 @@
+<!-- contenedor de las tarjetas de los proyectos -->
 <script setup>
+
+/**variables del contenido */
 defineProps({
   src: {
       type: String,
@@ -32,8 +35,8 @@ defineProps({
 <style scoped>
 
 .card__container{
-  width: 367px;
-  height: 430px;
+
+ 
   border: 1px solid #888;
   padding: 0.5rem;
 }

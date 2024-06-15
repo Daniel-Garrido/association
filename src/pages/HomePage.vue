@@ -13,11 +13,12 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
   <navHeader />
 
   <!-- Section Presentacion -->
-  <section class="section__presentacion" id="home">
+  <section class="section__presentacion " id="home">
     <div class="presentacion__filter"></div>
 
-    <div class="presentacion__content container" data-aos="fade-up" data-aos-duration="1000">
+    <div class="presentacion__content " data-aos="fade-up" data-aos-duration="1000">
       <p class="presentacion__intro">association for computing machinery</p>
+      
       <h1 class="presentacion__title">
         Advancing Computing as a Science & Profession
       </h1>
@@ -51,23 +52,28 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
   </section>
 
   <!-- Section Events -->
-  <section class="section__events" id="events">
-    <div class="events__content container" data-aos="fade-up" data-aos-duration="1000">
+  <section class="" id="events">
+    
+    <div class="events__content " data-aos="fade-up" data-aos-duration="1000">
+     
+      
       <h2 class="section__title events__title">
-        events
+        eventos
       </h2>
+     
       <p class="events__description section__description">
        Algunos eventos que se han realizado por parte de la institución
       </p>
 
       <!-- lista de eventos -->
-      <ul class="events__cards--list">
-        <li class="events__cards--item" v-for="event in listEvents">
+      <ul class="events__cards--list2">
+        <li class="" v-for="event in listEvents">
           <cardEvent :src="event.src" :title="event.title" :date="event.date" />
         </li>
       </ul>
-      
+
     </div>
+
   </section>
 
   <!-- Section Conferences -->
@@ -96,16 +102,18 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
   <section class="section__projects" id="projects">
 
     <div class="projects__content container" data-aos="fade-right" data-aos-duration="950">
+
       <h2 class="projects__title section__title">
-        Projects
+        Projectos
       </h2>
       <p class="projects__description section__description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna augue, condimentum id elit nec, facilisis
-        lobortis magna.
+        Se muestra a continuación algunos proyectos que se han realizado en la insitución
       </p>
     </div>
     <sliderProjects data-aos="fade-right" data-aos-duration="950" :list-proyects="listProjects" />
+
   </section>
+
 
   <!-- Section About -->
   <section class="section__about" id="about">
@@ -172,6 +180,8 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
 </template>
 
 <style scoped>
+
+/**estilos de listas generales */
 ul{
   list-style: none;
 }
@@ -189,6 +199,7 @@ ul{
 }
 
 .section__description{
+ 
   text-align: center;
   font-family: var(--ff-montserrat);
   font-size: 1rem;
@@ -202,13 +213,16 @@ ul{
 
 /********  Clases Section Presentacion  ********/
 .section__presentacion {
-  height: 565px;
-  background: url("src\\assets\\imagenes\\home\\img1.png"),
-    center/ cover no-repeat;
-  position: relative;
+ 
+   height: 565px; 
+   background: url("src\\assets\\imagenes\\home\\img1.png"),center/ cover no-repeat; 
+   position: relative;
+
+  
 }
 
 .presentacion__filter {
+ 
   position: absolute;
   top: 0;
   bottom: 0;
@@ -217,6 +231,8 @@ ul{
   backdrop-filter: blur(11.5px);
   filter: brightness(35%);
   z-index: 1;
+
+  
 }
 
 .presentacion__content {
@@ -225,10 +241,12 @@ ul{
   right: 120px;
   position: absolute;
   color: white;
-  padding: 159px 0;
+  padding: 150px 0;
+  
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+ 
   gap: 1rem;
 }
 
@@ -274,6 +292,7 @@ ul{
 }
 
 .card1__card--list{
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,11 +308,19 @@ ul{
 }
 
 .events__cards--list{
+ 
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  gap: 3.1rem;
+  justify-content: center;
+  flex-direction: column;
+}
+.events__cards--list2{
+  width: 100%;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
 }
 
 
@@ -331,10 +358,18 @@ ul{
   color: var(--c-yellow-primary)
 }
 
-
+/**clases seccion eventos */
+.section__events{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
 /********  Clases Section Projects  ********/
+/**contenedor de la sección proyectos */
 .section__projects{
-  background-color: black;
+  background-color: #242526;
   padding-block: 2rem 5rem;
   /* border: 1px solid green; */
 }
@@ -357,7 +392,7 @@ ul{
 
 .about__content{
   position: relative;
- 
+
 }
 
 .about__title{
@@ -370,24 +405,24 @@ ul{
 }
 
 .about__title_Text{
-  text-align: left;
+  color: var(--c-yellow-primary);
   font-family: var(--ff-source-serif-4);
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 1.2rem;
+  padding: 0 1.7rem;
   text-transform: capitalize;
 }
 .about_Text{
   text-align: justify;
-  font-family: var(--ff-source-serif-4);
-  font-size: 16px;
-  line-height: 2rem;
-  margin-bottom: 3rem;
-  padding-top: 1rem;
+  color: var(--c-grey-primary);
+  font-family: var(--ff-montserrat);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 1.7rem;
 }
-
-
-
-
 
 
 /********  Clases Section Contact  ********/

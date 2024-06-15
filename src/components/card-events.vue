@@ -23,11 +23,12 @@ const formattedDate = props.date;
 <template>
  
  <div class="card__container">
-    <figure class="card__img">
+   
+   <figure class="card__img">
       <img :src="src" alt="img-event">
-    </figure>
+   </figure>
 
-    <div class="text__container">
+   <div class="text__container">
       <h3 class="card__title">
         {{ title }}
       </h3>
@@ -35,24 +36,27 @@ const formattedDate = props.date;
        <p class="card__description" v-html="formattedDate"></p>
       
     </div>
+
   </div>
+
 </template>
 
 <style scoped>
 
 .card__container{
- 
+  margin: auto;
+  width: 90%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  
+  align-items: center;
+  justify-content: center;
+ 
   box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  padding: 2rem 1rem 2rem 1rem;
   margin-bottom: 5rem;
 }
 
 .card__img{
-  width: 400px;
-  height: 100%;
+  width: 30%;
   flex-shrink: 0;
 }
 
@@ -69,6 +73,7 @@ const formattedDate = props.date;
 
 .card__title{
   color: var(--c-yellow-primary);
+  text-align: center;
   font-family: var(--ff-source-serif-4);
   font-size: 1.5rem;
   font-weight: 700;

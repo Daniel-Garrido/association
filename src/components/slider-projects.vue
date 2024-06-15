@@ -1,3 +1,4 @@
+<!-- Contenedor de los botones para deslizar  -->
 <script setup>
 import cardProjects from './card-projects.vue';
 import { register } from 'swiper/element/bundle';
@@ -16,13 +17,12 @@ defineProps({
   <div class="swiper">
     <swiper-container
       direction="horizontal"
-      :slides-per-view="3"
+      :slides-per-view="1"
       :space-between="50"
       :centered-slides="true"
       class="mySwiper"
       :loop="true"
       :modules="modules"
-      :autoplay="{delay: 3500}"
       :speed="1000"
       :navigation="{
         prevEl: '.swiper__btn--prev',
@@ -41,12 +41,14 @@ defineProps({
       </swiper-slide>
     </swiper-container>
 
+    <!-- icono de deslizar hacia la izquierda -->
     <button class="swiper__btn swiper__btn--prev">
       <figure>
         <img :src="'src\\assets\\icons\\arrow_left_yellow.svg'" alt="">
       </figure>
     </button>
 
+    <!-- icono de deslizar hacia la derecha -->
     <button class="swiper__btn swiper__btn--next">
       <figure>
         <img :src="'src\\assets\\icons\\arrow_right_yellow.svg'" alt="">
@@ -56,34 +58,42 @@ defineProps({
 </template>
 
 <style scoped>
+
+/* estilo a las listas */
 ul{
   list-style: none;
 }
 
+/**contenedor padre */
 .swiper{
-  width: 1290px;
-  position: relative;
-  margin: 0 auto;
+
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/**contenedor hijo */
 swiper-container{
-  width: 1201px;
-  height: 484px;
-  margin: 0 auto;
+  width: 90%;
+  padding: 1rem;
 }
 
+/**estilos a los botones del slider  */
 .swiper__btn{
+  width: 50px;
+  height: 50px;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0;
+  
   background-color: transparent;
   cursor: pointer;
-  width: 30px;
-  height: 30px;
-  border-radius: 45px;
   position: absolute;
-  top: 183.5px;
+  margin: 1rem;
+ 
 }
 
 .swiper__btn--next{
@@ -93,7 +103,9 @@ swiper-container{
   left: 0;
 }
 
+
 .swiper__btn img{
+
   width: 100%;
   height: 100%;
   display: flex;
@@ -101,6 +113,7 @@ swiper-container{
 
 swiper-container::part(pagination) {
   bottom: 0;
+
 }
 swiper-container::part(bullet) {
   background-color: #888888;
@@ -112,4 +125,5 @@ swiper-container::part(bullet-active) {
   height: 13px;
   width: 13px;
 }
+
 </style>
