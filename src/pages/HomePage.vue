@@ -104,11 +104,8 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
     <div class="projects__content container" data-aos="fade-right" data-aos-duration="950">
 
       <h2 class="projects__title section__title">
-<<<<<<< HEAD
         Proyectos
-=======
-        Projectos
->>>>>>> a29c6ad42dd51058f17bd535add910cf087e7560
+
       </h2>
       <p class="projects__description section__description">
         Se muestra a continuación algunos proyectos que se han realizado en la insitución
@@ -293,11 +290,10 @@ ul{
 
 .card1__description{
   color: var(--c-grey-primary);
-<<<<<<< HEAD
+
   max-width: 100%;
   word-wrap: break-word;
-=======
->>>>>>> a29c6ad42dd51058f17bd535add910cf087e7560
+
 }
 
 .card1__card--list{
@@ -314,11 +310,10 @@ ul{
 
 .events__description{
   color: var(--c-grey-primary);
-<<<<<<< HEAD
+
   max-width: 100%;
   word-wrap: break-word;
-=======
->>>>>>> a29c6ad42dd51058f17bd535add910cf087e7560
+
 }
 
 .events__cards--list{
@@ -382,7 +377,7 @@ ul{
 }
 /********  Clases Section Projects  ********/
 /**contenedor de la sección proyectos */
-<<<<<<< HEAD
+
 .section__projects {
   background-color: #242526; /* Color de fondo original */
   color: #D2D2D2; /* Color de texto original */
@@ -430,12 +425,12 @@ ul{
   max-width: 100%;
   word-wrap: break-word;
 }
-=======
+
 .section__projects{
   background-color: #242526;
   padding-block: 2rem 5rem;
   /* border: 1px solid green; */
-}
+
 
 .projects__title{
   color: var(--c-yellow-secondary);
@@ -445,8 +440,6 @@ ul{
   color: #D2D2D2;
 }
 
-
->>>>>>> a29c6ad42dd51058f17bd535add910cf087e7560
 /********  Clases Section About  ********/
 
 .section__about{
