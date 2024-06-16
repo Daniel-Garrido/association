@@ -444,7 +444,7 @@ ul{
 
 .section__about{
   /* padding-block: 5.8rem 7rem; */
-  padding-bottom: 8rem;
+  padding-bottom: 5rem;
 }
 
 .about__content{
@@ -453,12 +453,15 @@ ul{
 }
 
 .about__title{
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .about__content_seccion{
-  padding: 20px;
-  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  width: 85%;
+  
+  padding: 1rem;
+  margin:2rem;
+  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.2);
 }
 
 .about__title_Text{
@@ -479,6 +482,27 @@ ul{
   font-weight: 400;
   line-height: 24px;
   padding: 0 1.7rem;
+}
+
+/**media query para la seccion de about */
+@media (max-width: 400px) {
+  .about__content_seccion {
+    width: 95%; /* Ajustar el ancho para pantallas más pequeñas */
+    margin: 1rem; /* Reducir el margen */
+    padding: 0.5rem; /* Ajustar el padding */
+  }
+
+  .about__title_Text {
+    font-size: 1.2rem; /* Reducir el tamaño de la fuente */
+    line-height: 20px; /* Ajustar la altura de línea */
+    padding: 0 1rem; /* Ajustar el padding */
+  }
+
+  .about_Text {
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente si es necesario */
+    line-height: 20px; /* Ajustar la altura de línea */
+    padding: 0 1rem; /* Ajustar el padding */
+  }
 }
 
 
