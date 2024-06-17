@@ -253,7 +253,7 @@ ul{
 .section__presentacion {
  
    height: 565px; 
-   background: url("src\\assets\\imagenes\\home\\img1.png"),center/ cover no-repeat; 
+   background: url("../assets/imagenes/home/img1.png"),center/ cover no-repeat; 
    position: relative;
 
   
