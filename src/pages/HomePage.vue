@@ -7,13 +7,16 @@ import sliderProjects from "../components/slider-projects.vue";
 import formContact from "../components/form-contact.vue";
 import cardLogo from '../components/card-logo.vue'
 import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity } from "../js/datos-home-page.js";
+
 import FloatingButton from "../components/nav-header/FloatingButton.vue";
+
 </script>
 
 <template>
   <navHeader />
       <!-- FloatingButton importado desde src/nav-header/FloatingButton.vue -->
       <FloatingButton />
+
   <!-- Section Presentacion -->
   <section class="section__presentacion " id="home">
     <div class="presentacion__filter"></div>
