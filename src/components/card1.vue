@@ -32,8 +32,7 @@ defineProps({
 <style scoped>
 .card__container{
   width: 100%;
-  background-color: red;
-  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.03);
 }
 
 .card__img{

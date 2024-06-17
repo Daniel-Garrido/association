@@ -538,13 +538,13 @@ ul{
 /********  Clases Section About  ********/
   
 .section__about{
+
   /* padding-block: 5.8rem 7rem; */
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
 }
 
 .about__content{
   position: relative;
-
 }
 
 .about__title{
@@ -552,8 +552,11 @@ ul{
 }
 
 .about__content_seccion{
-  padding: 20px;
-  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.3);
 }
 
 .about__title_Text{
@@ -579,21 +582,21 @@ ul{
 /**media query para la seccion de about */
 @media (max-width: 400px) {
   .about__content_seccion {
-    width: 95%; /* Ajustar el ancho para pantallas más pequeñas */
-    margin: 1rem; /* Reducir el margen */
-    padding: 0.5rem; /* Ajustar el padding */
+    width: 95%; 
+    margin: 1rem; 
+    padding: 0.5rem; 
   }
 
   .about__title_Text {
-    font-size: 1.2rem; /* Reducir el tamaño de la fuente */
-    line-height: 20px; /* Ajustar la altura de línea */
-    padding: 0 1rem; /* Ajustar el padding */
+    font-size: 1.2rem; 
+    line-height: 20px; 
+    padding: 0 1rem; 
   }
 
   .about_Text {
-    font-size: 0.9rem; /* Reducir el tamaño de la fuente si es necesario */
-    line-height: 20px; /* Ajustar la altura de línea */
-    padding: 0 1rem; /* Ajustar el padding */
+    font-size: 0.8rem;
+    line-height: 20px; 
+    padding: 0 1rem; 
   }
 
   .contact__social--link {
