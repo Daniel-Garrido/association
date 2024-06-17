@@ -1,3 +1,7 @@
+const imgEvento1 = "src/assets/imagenes/card_events/EventoMaikron.jpg";
+const imgEvento2 = "src/assets/imagenes/card_events/EventoMaikron2.jpg";
+
+
 export const listCard1 = [
   {
     src: "src/assets/imagenes/card1/img1.png",
@@ -16,14 +20,14 @@ export const listCard1 = [
   }
 ];
 
-const imagenEvento = "src/assets/imagenes/card_events/EventoMaikron.jpg";
+
 export const listEvents = [
  
-  {src: imagenEvento,
+  {src: imgEvento1,
   title: "Understanding SMEs Cybersecurity Concerns and Experience",
   date: "Se concluye con éxito el evento Understanding SMEs Cybersecurity Concerns and Experience .Aunado a ello se agradece a todos los que participaron y contribuyeron a este encuentro. Un especial reconocimiento al Dr. Placide Poba-Nzaou, de la University of Quebec en Montreal por su destacada presentación y aporte al conocimiento en el campo de la Ciberseguridad. <br> El evento, que tuvo lugar en el auditorio Miguel Peón Toledo, del Instituto Tecnológico de Mérida, fue un espacio de valioso aprendizaje y diálogo sobre las tendencias y desafíos actuales en ciberseguridad. <br> Agradecemos profundamente el apoyo del TECNM-Mérida por las gestiones para ser sede de este evento y esperamos encontrarnos nuevamente."},
  
-  {src: "/src/assets/imagenes/card_events/EventoMaikron2.jpg",
+  {src: imgEvento2,
   title: "Captum: Interpretación de Modelos de Machine Learning",
   date: "Se concluye con éxito el evento Captum: Interpretación de Modelos de Machine Learning .  Aunado a ello,se agradece a todos los que participaron y contribuyeron a este encuentro. Un especial reconocimiento al MSc. Alejandro Pérez Muñoz por su destacada presentación y aporte al conocimiento en el campo del Machine Learning. <br> El evento, que tuvo lugar en la Sala Plenaria del Nodo de Creatividad para la Innovación y el Emprendimiento del Campus Norte del Instituto Tecnológico de Mérida, fue un espacio de valioso aprendizaje y diálogo sobre las tendencias y desafíos actuales en inteligencia artificial. <br> Gracias a todos los asistentes por su interés y participación activa. Esperamos contar con su presencia en futuras iniciativas. Agradecemos produndamente el apoyo del TECNM-Mérida por las gestiones para ser sede de este evento y esperamos encontrarnos nuevamente."},
   
