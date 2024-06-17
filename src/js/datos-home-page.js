@@ -6,24 +6,24 @@ const imgEvento1 = "./src/assets/imagenes/card_events/EventoMaikron2.jpg";
 const imgEvento2 = "./src/assets/imagenes/card_events/EventoMaikron.jpg";
 // End of events
 // Conferences
-const imgConferencia1 = "src/assets/imagenes/card_conferences/img1.png";
-const imgConferencia2 = "src/assets/imagenes/card_conferences/img2.png";
-const imgConferencia3 = "src/assets/imagenes/card_conferences/img3.png";
+const imgConferencia1 = "./src/assets/imagenes/card_conferences/img1.png";
+const imgConferencia2 = "./src/assets/imagenes/card_conferences/img2.png";
+const imgConferencia3 = "./src/assets/imagenes/card_conferences/img3.png";
 // End of conferences
 // Projects
-const imgProyecto1 = "src/assets/imagenes/card_projects/img1.png";
-const imgProyecto2 = "src/assets/imagenes/card_projects/img2.jpg";
+const imgProyecto1 = "./src/assets/imagenes/card_projects/img1.png";
+const imgProyecto2 = "./src/assets/imagenes/card_projects/img2.jpg";
 // End of projects
 // Logos
-const imgLogo1 = "src/assets/imagenes/logos/aaai.png";
-const imgLogo2 = "src/assets/imagenes/logos/wolf.png";
-const imgLogo3 = "src/assets/imagenes/logos/aaai.png";
-const imgLogo4 = "src/assets/imagenes/logos/wolf.png";
-const imgLogo5 = "src/assets/imagenes/logos/aaai.png";
+const imgLogo1 = "./src/assets/imagenes/logos/aaai.png";
+const imgLogo2 = "./src/assets/imagenes/logos/wolf.png";
+const imgLogo3 = "./src/assets/imagenes/logos/aaai.png";
+const imgLogo4 = "./src/assets/imagenes/logos/wolf.png";
+const imgLogo5 = "./src/assets/imagenes/logos/aaai.png";
 // End of logos
 // Cards
-const imgCard1 = "src/assets/imagenes/card1/img1.png";
-const imgCard2 = "src/assets/imagenes/card1/img2.png";
+const imgCard1 = "./src/assets/imagenes/card1/img1.png";
+const imgCard2 = "./src/assets/imagenes/card1/img2.png";
 // End of cards
 // End of config
 
