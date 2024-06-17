@@ -2,8 +2,8 @@
 Config data for home page
 */
 //Events
-const imgEvento1 = "src/assets/imagenes/card_events/EventoMaikron2.jpg";
-const imgEvento2 = "src/assets/imagenes/card_events/EventoMaikron.jpg";
+const imgEvento1 = "./src/assets/imagenes/card_events/EventoMaikron2.jpg";
+const imgEvento2 = "./src/assets/imagenes/card_events/EventoMaikron.jpg";
 // End of events
 // Conferences
 const imgConferencia1 = "src/assets/imagenes/card_conferences/img1.png";
