@@ -164,10 +164,47 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
 
   </section>
 
+<!-- Section Contact -->
+<section class="section__contact" id="contact">
+  <div class="contact__content container" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="contact__title section__title">Contact</h2>
+    <div class="contact__info">
+      <div class="contact__social">
+        <a href="mailto:g.goldcastle@maikron.org" class="contact__social--link">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="42" height="42" fill="currentColor">
+    <path d="M22 3.9H2a2 2 0 0 0-2 2v12.2a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V5.9a2 2 0 0 0-2-2zm-1.5 1.1L12 12.3 3.5 5H20.5zM2 19.1V8.9l9 6.5 9-6.5v10.2H2z"/>
+  </svg>
+</a>
+        <a href="https://www.facebook.com/profile.php?id=61553712248073" target="_blank" class="contact__social--link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="contact__icon">
+            <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .733.592 1.324 1.325 1.324h11.495v-9.294h-3.118v-3.622h3.118v-2.671c0-3.097 1.894-4.788 4.66-4.788 1.325 0 2.465.099 2.794.143v3.24h-1.916c-1.502 0-1.794.714-1.794 1.762v2.314h3.588l-.467 3.622h-3.121v9.294h6.116c.733 0 1.324-.592 1.324-1.325v-21.351c0-.733-.591-1.325-1.324-1.325z"/>
+          </svg>
+        </a>
+        <a href="https://x.com/Maikron_JAICA" target="_blank" class="contact__social--link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="contact__icon">
+            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.718 0-4.918 2.201-4.918 4.917 0 .385.044.761.128 1.124-4.083-.205-7.702-2.16-10.126-5.134-.423.725-.666 1.571-.666 2.475 0 1.708.87 3.214 2.188 4.099-.808-.026-1.567-.248-2.229-.617-.001.021-.001.042-.001.063 0 2.386 1.697 4.374 3.951 4.829-.414.113-.851.173-1.3.173-.318 0-.626-.031-.928-.088.627 1.957 2.445 3.379 4.604 3.419-1.683 1.319-3.808 2.106-6.115 2.106-.397 0-.79-.023-1.175-.068 2.179 1.396 4.768 2.21 7.548 2.21 9.054 0 14.002-7.498 14.002-13.999 0-.213-.004-.426-.014-.637.962-.695 1.798-1.562 2.457-2.548z"/>
+          </svg>
+       </a>
+ <!--<a href="https://github.com/Maikron-JAICA" target="_blank" class="contact__social--link">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="42" height="42" fill="currentColor">
+    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.113.793-.262.793-.586 0-.288-.012-1.05-.017-2.06-3.293.715-4-1.598-4-1.598-.54-1.37-1.317-1.737-1.317-1.737-1.077-.737.082-.722.082-.722 1.19.084 1.82 1.223 1.82 1.223 1.06 1.815 2.786 1.293 3.464.99.107-.766.415-1.293.755-1.593-2.648-.3-5.44-1.324-5.44-5.896 0-1.302.465-2.368 1.22-3.202-.122-.303-.53-1.518.116-3.16 0 0 1.005-.32 3.3 1.227.957-.266 1.98-.399 3-.405 1.02.006 2.043.139 3 .405 2.292-1.547 3.297-1.227 3.297-1.227.648 1.642.24 2.857.118 3.16.755.834 1.218 1.9 1.218 3.202 0 4.586-2.795 5.59-5.454 5.883.427.369.81 1.095.81 2.213 0 1.598-.014 2.882-.014 3.275 0 .327.19.705.8.585C20.565 21.797 24 17.3 24 12c0-6.63-5.373-12-12-12z"/>
+  </svg>
+</a>-->
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+  <!-- Footer Section -->
+   <section>  <div class="footer__bottom-body">
+  <p class="footer__bottom-text">Copyright © 2024 Maikron. All rights reserved.</p>
+  <div class="footer__terms">&nbsp;</div>
+</div></section>
 
 
-  <!-- Section Contact -->
-  <section class="section__contact" id="contact">
+  <!--<section class="section__contact" id="contact">
     <div class="contact__content container" data-aos="fade-up" data-aos-duration="1000">
       <h2 class="contact__title section__title">
         contact
@@ -175,7 +212,7 @@ import {listCard1, listEvents, listConferences, listProjects, listLogosCommunity
       <formContact />
 
     </div>
-  </section>
+  </section>-->
 
 
 </template>
@@ -502,7 +539,7 @@ ul{
   
 .section__about{
   /* padding-block: 5.8rem 7rem; */
-  padding-bottom: 5rem;
+  padding-bottom: 8rem;
 }
 
 .about__content{
@@ -511,15 +548,12 @@ ul{
 }
 
 .about__title{
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .about__content_seccion{
-  width: 85%;
-  
-  padding: 1rem;
-  margin:2rem;
-  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
 }
 
 .about__title_Text{
@@ -545,32 +579,33 @@ ul{
 /**media query para la seccion de about */
 @media (max-width: 400px) {
   .about__content_seccion {
-    width: 90%; 
-    margin: 1rem;
-    padding: 0.5rem; 
+    width: 95%; /* Ajustar el ancho para pantallas más pequeñas */
+    margin: 1rem; /* Reducir el margen */
+    padding: 0.5rem; /* Ajustar el padding */
   }
 
   .about__title_Text {
-    font-size: 1.2rem; 
-    line-height: 20px; 
-    padding: 0 1rem; 
+    font-size: 1.2rem; /* Reducir el tamaño de la fuente */
+    line-height: 20px; /* Ajustar la altura de línea */
+    padding: 0 1rem; /* Ajustar el padding */
   }
 
   .about_Text {
-    font-size: 0.8rem; 
-    line-height: 20px; 
-    padding: 0 1rem; 
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente si es necesario */
+    line-height: 20px; /* Ajustar la altura de línea */
+    padding: 0 1rem; /* Ajustar el padding */
+  }
+
+  .contact__social--link {
+    width: 45px; /* Tamaño del enlace para pantallas pequeñas */
+    height: 45px; /* Tamaño del enlace para pantallas pequeñas */
+  }
+
+  .contact__icon-large {
+    width: 20px; /* Tamaño del icono grande en pantallas pequeñas */
+    height: 20px; /* Tamaño del icono grande en pantallas pequeñas */
   }
 }
-
-
-/********  Clases Section Contact  ********/
-.section__contact{
-  padding-bottom: 10rem;
-
-}
-
-
 /********  Clases Section Community  ********/
 .section__community{
   background: #2E3339;
@@ -586,6 +621,38 @@ ul{
 .community__title{
   color: white;
   margin-bottom: 4rem;
+}
+
+.footer__bottom-body {
+  background-color: #f9f9f9; /* Gris blancuzco */
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer__bottom-body p{
+  font-size: 0.875rem;
+  color: rgba(153, 153, 153, 0.8);
+}
+
+.footer__bottom-text {
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.footer__terms {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .footer__bottom-body {
+    padding: 0.5rem 0;
+  }
+
+  .footer__bottom-text {
+    font-size: 0.75rem;
+  }
 }
 
 </style>
