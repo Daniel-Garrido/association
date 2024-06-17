@@ -10,7 +10,7 @@ export const listCard1 = [
 
 export const listEvents = [
  
-  {src: "src\\assets\\imagenes\\card_events\\EventoMaikron.jpg",
+  {src: "src/assets/imagenes/card_events/EventoMaikron.jpg",
   title: "Understanding SMEs Cybersecurity Concerns and Experience",
   date: "Se concluye con éxito el evento Understanding SMEs Cybersecurity Concerns and Experience .Aunado a ello se agradece a todos los que participaron y contribuyeron a este encuentro. Un especial reconocimiento al Dr. Placide Poba-Nzaou, de la University of Quebec en Montreal por su destacada presentación y aporte al conocimiento en el campo de la Ciberseguridad. <br> El evento, que tuvo lugar en el auditorio Miguel Peón Toledo, del Instituto Tecnológico de Mérida, fue un espacio de valioso aprendizaje y diálogo sobre las tendencias y desafíos actuales en ciberseguridad. <br> Agradecemos profundamente el apoyo del TECNM-Mérida por las gestiones para ser sede de este evento y esperamos encontrarnos nuevamente."},
  
