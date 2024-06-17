@@ -50,7 +50,7 @@ const formattedDate = props.date;
   align-items: center;
   justify-content: center;
  
-  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.3);
   padding: 2rem 1rem 2rem 1rem;
   margin-bottom: 5rem;
 }
@@ -92,4 +92,40 @@ const formattedDate = props.date;
   line-height: 24px;
   padding: 0 1.7rem;
 }
+
+
+/**media query para la seccion de eventos */
+@media (max-width: 750px) {
+  .card__container {
+
+    margin: auto;
+    width: 95%;
+    flex-direction: column;
+
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .card__img {
+    width: 90%;
+    flex-shrink: 0;
+  }
+
+  .card__title {
+
+    font-size: 1rem;
+    font-weight: 700;
+
+
+  }
+
+  .card__description {
+    font-size: 0.8rem;
+  }
+
+
+}
+
 </style>

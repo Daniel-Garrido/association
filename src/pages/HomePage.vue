@@ -252,6 +252,7 @@ ul{
 }
 
 .presentacion__intro {
+  text-align: center;
   color: #fff;
   font-family: var(--ff-montserrat);
   font-size: 1.2rem;
@@ -261,21 +262,49 @@ ul{
 }
 
 .presentacion__title {
+  text-align: center;
   color: #fff;
   font-family: var(--ff-montserrat);
   font-size: 3rem;
   font-weight: 700;
+  font-variant: small-caps;
   width: 724px;
   margin-bottom: 1rem;
 }
 
 .presentacion__description {
+  text-align: center;
   color: #fff;
   font-family: var(--ff-montserrat);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
   width: 692px;
+}
+
+/*responsive a la seccion de inicio */
+@media(max-width: 800px){
+  .presentacion__intro{
+    text-align: center;
+
+}
+.presentacion__title{
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+}
+
+@media(max-width: 400px){ 
+.presentacion__title{
+  width: 340px;
+  font-size: 1.5rem;
+}
+
+.presentacion__description {
+  font-size: 0.8rem;
+  width: 320px;
+}
 }
 
 
@@ -297,13 +326,22 @@ ul{
 }
 
 .card1__card--list{
- 
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
 }
+/**responsive a las cards  */
 
+@media(max-width:750px){
+ .card1__card--list{
+  flex-direction: column;
+ }
+}
+
+
+/** */
 .events__title{
   color: var(--c-yellow-primary);
 }
@@ -332,6 +370,22 @@ ul{
  flex-direction: column;
 }
 
+@media(max-width: 400px){
+
+  .card1__title{
+ 
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+  .card1__description{
+  color: red;
+  font-size: 0.9rem;
+ 
+ 
+
+}
+}
 
 /********  Clases Section Conferences  ********/
 .section__conferences{
@@ -404,21 +458,25 @@ ul{
 }
 
 .projects__content {
+ 
   margin-bottom: 2rem;
 }
 
-/* Responsividad para todos los párrafos */
-@media (min-width: 640px) {
+/* media query para el titulo y subtitulo de la seccion de proyectos */
+@media (max-width: 400px) {
+  .projects__title{
+    font-size: 1.5rem;
+  }
   .projects__description {
-    font-size: 1.25rem; /* Font size for medium screens */
+    font-size: 0.9rem;
+    padding: 0px;
+  }
+
+  .projects__content{
+    margin-bottom: 0rem
   }
 }
 
-@media (min-width: 1024px) {
-  .projects__description {
-    font-size: 1.5rem; /* Font size for larger screens */
-  }
-}
 
 /* Ajuste general para todos los párrafos en la página */
 /*p {
@@ -441,7 +499,7 @@ ul{
 }
 
 /********  Clases Section About  ********/
-
+  
 .section__about{
   /* padding-block: 5.8rem 7rem; */
   padding-bottom: 5rem;
@@ -487,21 +545,21 @@ ul{
 /**media query para la seccion de about */
 @media (max-width: 400px) {
   .about__content_seccion {
-    width: 95%; /* Ajustar el ancho para pantallas más pequeñas */
-    margin: 1rem; /* Reducir el margen */
-    padding: 0.5rem; /* Ajustar el padding */
+    width: 90%; 
+    margin: 1rem;
+    padding: 0.5rem; 
   }
 
   .about__title_Text {
-    font-size: 1.2rem; /* Reducir el tamaño de la fuente */
-    line-height: 20px; /* Ajustar la altura de línea */
-    padding: 0 1rem; /* Ajustar el padding */
+    font-size: 1.2rem; 
+    line-height: 20px; 
+    padding: 0 1rem; 
   }
 
   .about_Text {
-    font-size: 0.9rem; /* Reducir el tamaño de la fuente si es necesario */
-    line-height: 20px; /* Ajustar la altura de línea */
-    padding: 0 1rem; /* Ajustar el padding */
+    font-size: 0.8rem; 
+    line-height: 20px; 
+    padding: 0 1rem; 
   }
 }
 

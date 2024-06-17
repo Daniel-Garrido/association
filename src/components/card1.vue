@@ -31,12 +31,13 @@ defineProps({
 
 <style scoped>
 .card__container{
-  width: 367px;
-  height: 430px;
+  width: 100%;
+  background-color: red;
   box-shadow: 3px 4px 24px 0px rgba(0, 0, 0, 0.05);
 }
 
 .card__img{
+  text-align: center;
   width: 100%;
   height: 190px;
   filter: grayscale();

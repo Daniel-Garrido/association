@@ -34,6 +34,7 @@ defineProps({
 
 <style scoped>
 .card__container {
+  width: 100%;
   border: 1px solid #888;
   padding: 0.5rem;
 }
@@ -73,13 +74,16 @@ defineProps({
   text-align: justify;
 }
 
-@media (max-width: 768px) {
+/** diseño responsivo a la seccion de proyectos*/
+@media (max-width: 500px) {
   .card__title {
+    text-align: center;
     font-size: 1rem;
+    font-weight: 500;
   }
 
   .card__description {
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     line-height: 1.25rem;
   }
 }

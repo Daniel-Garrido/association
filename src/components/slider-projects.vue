@@ -74,6 +74,7 @@ ul {
 
 /* Contenedor hijo */
 swiper-container {
+
   width: 90%;
   padding: 1rem;
 }
@@ -123,6 +124,9 @@ swiper-container::part(bullet-active) {
 }
 
 @media (max-width: 640px) {
+  swiper-container {
+  padding: 0rem;
+ }
   .swiper__btn {
     width: 40px;
     height: 40px;
