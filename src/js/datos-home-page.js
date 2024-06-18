@@ -12,7 +12,7 @@ const imgConferencia3 = "./src/assets/imagenes/card_conferences/img3.png";
 // End of conferences
 // Projects
 const imgProyecto1 = "./src/assets/imagenes/card_projects/img1.png";
-const imgProyecto2 = "./src/assets/imagenes/card_projects/img2.jpg";
+const imgProyecto2 = "./src/assets/imagenes/card_projects/img2.png";
 // End of projects
 // Logos
 const imgLogo1 = "./src/assets/imagenes/logos/aaai.png";
@@ -22,8 +22,8 @@ const imgLogo4 = "./src/assets/imagenes/logos/wolf.png";
 const imgLogo5 = "./src/assets/imagenes/logos/aaai.png";
 // End of logos
 // Cards
-const imgCard1 = "./src/assets/imagenes/card1/img1.png";
-const imgCard2 = "./src/assets/imagenes/card1/img2.png";
+const imgCard1 = "./src/assets/imagenes/card_events/img1.png";
+const imgCard2 = "./src/assets/imagenes/card_events/img2.png";
 // End of cards
 // End of config
 

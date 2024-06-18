@@ -37,7 +37,7 @@ import FloatingButton from "../components/nav-header/FloatingButton.vue";
 
   <!-- section journal -->
   <!-- Section cards1 -->
-  <section class="section__card1" id="jounal">
+  <section class="section__card1" id="journal">
     <div class="card1__content container" data-aos="fade-up" data-aos-duration="1000">
       <h2 class="card1__title section__title">
         Expand Your Peer Network, Enhance Your Professional
@@ -63,7 +63,7 @@ import FloatingButton from "../components/nav-header/FloatingButton.vue";
      
       
       <h2 class="section__title events__title">
-        eventos
+        events
       </h2>
      
       <p class="events__description section__description">
@@ -109,7 +109,7 @@ import FloatingButton from "../components/nav-header/FloatingButton.vue";
     <div class="projects__content container" data-aos="fade-right" data-aos-duration="950">
 
       <h2 class="projects__title section__title">
-        Proyectos
+        projects
 
       </h2>
       <p class="projects__description section__description">
@@ -121,53 +121,50 @@ import FloatingButton from "../components/nav-header/FloatingButton.vue";
   </section>
 
 
-  <!-- Section About -->
-  <section class="section__about" id="about">
+    <!-- Section About -->
+    <section class="section__about" id="about">
 
-    <div class="about__content container" data-aos="fade-up" data-aos-duration="1000">
+<div id="historia" class="about__content container" data-aos="fade-up" data-aos-duration="1000">
 
-      <h2 class="about__title section__title">
-        About
-      </h2>
+  <h2 class="about__title section__title">
+    About
+  </h2>
 
-      <div class="about__content_seccion">
-        <h1 class="about__title_Text"> Historia</h1>
-        <p class="about_Text">
-          En el contexto de México, como en muchas otras partes del mundo, la inteligencia artificial (IA) a menudo ha
-          sido envuelta en un velo de misterio y especulación. Desde los relatos de ciencia ficción hasta los debates
-          sobre el futuro del trabajo, la IA ha sido tema de fascinación y preocupación en igual medida. Sin embargo, en
-          medio de estos mitos y percepciones distorsionadas, México se encuentra en una encrucijada única: tiene el
-          potencial de aprovechar los beneficios de la IA para impulsar el progreso económico y social, al tiempo que
-          enfrenta desafíos particulares en términos de acceso, capacitación y regulación.
-          Es de esta forma que, en un mundo donde los avances tecnológicos y la inteligencia artificial a menudo son
-          vistos con escepticismo y temor, nace la Asociación MAIKRON, fundada por un grupo de visionarios y entusiastas
-          de la tecnología y la ciencia. La razón del nacimiento de dicha asociación radica en demostrar que la IA y la
-          tecnología pueden ser fuerzas positivas que contribuyen al bienestar de la sociedad.
-        </p>
-      </div>
+  <div class="about__content_seccion" >
+    <h1 class="about__title_Text">Historia</h1>
+    <p class="about_Text">
+      En el contexto de México, como en muchas otras partes del mundo, la inteligencia artificial (IA) a menudo ha
+      sido envuelta en un velo de misterio y especulación. Desde los relatos de ciencia ficción hasta los debates
+      sobre el futuro del trabajo, la IA ha sido tema de fascinación y preocupación en igual medida. Sin embargo, en
+      medio de estos mitos y percepciones distorsionadas, México se encuentra en una encrucijada única: tiene el
+      potencial de aprovechar los beneficios de la IA para impulsar el progreso económico y social, al tiempo que
+      enfrenta desafíos particulares en términos de acceso, capacitación y regulación.
+      Es de esta forma que, en un mundo donde los avances tecnológicos y la inteligencia artificial a menudo son
+      vistos con escepticismo y temor, nace la Asociación MAIKRON, fundada por un grupo de visionarios y entusiastas
+      de la tecnología y la ciencia. La razón del nacimiento de dicha asociación radica en demostrar que la IA y la
+      tecnología pueden ser fuerzas positivas que contribuyen al bienestar de la sociedad.
+    </p>
+  </div>
 
+  <div class="about__content_seccion" id="mision">
+    <h1 class="about__title_Text">Misión</h1>
+    <p class="about_Text">
+      Impulsar el uso responsable y ético de la tecnología y la inteligencia artificial para mejorar la calidad de
+      vida de las personas y contribuir al desarrollo sostenible de México y del bienestar de su sociedad.
+    </p>
+  </div>
 
-      <div class="about__content_seccion">
-        <h1 class="about__title_Text"> Misión</h1>
-        <p class="about_Text">
-          Impulsar el uso responsable y ético de la tecnología y la inteligencia artificial para mejorar la calidad de
-          vida de las personas y contribuir al desarrollo sostenible de México y del bienestar de su sociedad.
-        </p>
-      </div>
+  <div class="about__content_seccion" id="vision">
+    <h1 class="about__title_Text">Visión</h1>
+    <p class="about_Text">
+      Ser líder en el uso responsable y ético de la tecnología y la inteligencia artificial en México, siendo
+      reconocida por su aporte al bienestar de las personas y al desarrollo sostenible del país.
+    </p>
+  </div>
 
+</div>
 
-      <div class="about__content_seccion">
-        <h1 class="about__title_Text"> Visión</h1>
-        <p class="about_Text">
-          Ser líder en el uso responsable y ético de la tecnología y la inteligencia artificial en México, siendo
-          reconocida por su aporte al bienestar de las personas y al desarrollo sostenible del país.
-        </p>
-      </div>
-
-
-    </div>
-
-  </section>
+</section>
 
 <!-- Section Contact -->
 <section class="section__contact" id="contact">
